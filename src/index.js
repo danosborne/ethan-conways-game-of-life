@@ -91,7 +91,6 @@ const tick = () => {
     for (let j = 0; j < 20; j++) {
       let cell = row[j];
       const count = countNeighbours(i, j);
-      console.log('tick', i, j, count);
       if (isAlive(cell)) {
         if (count === 2 || count === 3) {
           nextGameStateRow[j] = X; // STAYS ALIVE 
