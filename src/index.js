@@ -1,17 +1,14 @@
 /*
  Plans and ideas:
 
- 1. Remove the hard coding of the 20x20 grid everywhere:
-   - main.css board size calc - do it in JS instead
-   - initial game state - should be algorithmic, like createInitialState(200,200).then(addSpider(0,0)).then(addGlider(150, 175)); etc.
-   - wrap() function encapsulates the grid size too - :grimacing:
-   - tick() and render() functions
-
-2. Add functions to programatically build initial states at a given top/left coordinate, say.
-
-3. 
-
+  - Remove the hard coding of the 20x20 grid everywhere:
+    - main.css board size calc - do it in JS instead
+    - initial game state - should be algorithmic, like createInitialState(200,200).then(addSpider(0,0)).then(addGlider(150, 175)); etc.
+    - wrap() function encapsulates the grid size too - :grimacing:
+    - tick() and render() functions 
+  - Add functions to programatically build initial states at a given top/left coordinate, say.
 */
+
 import board from 'components/board';
 import lifeform from 'components/lifeform';
 import 'main.css';
