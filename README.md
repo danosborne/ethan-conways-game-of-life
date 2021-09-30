@@ -1,5 +1,7 @@
 # ethan-conways-game-of-life
-Pair programmed game of life with my 10 year old 
+Pair programmed game of life with my 10 year old.
+Raw JS & CSS with a super basic webpack build.
+Super simple implementation.
 
 ## How to use
 
